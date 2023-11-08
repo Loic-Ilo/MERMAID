@@ -1,5 +1,8 @@
 # My home page
-```meramaid
-flowchart LR
-id
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
