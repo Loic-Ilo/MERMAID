@@ -1,0 +1,52 @@
+# Salut ! Hello !
+## change 1
+
+# Markdown heading styles{#identifier .heading1}
+
+<p style="color:green;font-weight:700;font-size:20px">markdown color font styles</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/771px-Apple_Computer_Logo_rainbow.svg.png" alt="drawing" style="width:200px;"/>
+
+- [x] #739
+- [ ] `#0969DA`
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
+```
+```python
+def Foo(self, bar):
+  self.bar = bar
+```
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/771px-Apple_Computer_Logo_rainbow.svg.png)
+```mermaid
+  graph TD;
+      A(":+1:[^1]")-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+  ```
+  ```mermaid
+  erDiagram
+          CUSTOvMER }|..|{ DELIVERY-ADDRESS : has
+          CUSTOMER ||--o{ ORDER : places
+          CUSTOMER ||--o{ INVOICE : "liable for"
+          DELIVERY-ADDRESS ||--o{ ORDER : receives
+          INVOICE ||--|{ ORDER : covers
+          ORDER ||--|{ ORDER-ITEM : includes
+          PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+          PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+```
+```mermaid
+flowchart LR
+    id1[(fa:fa-list Database)]
+    id2[( GBQ  database)]
+    id1-->id2
+```
